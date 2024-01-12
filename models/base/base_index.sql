@@ -1,7 +1,7 @@
 with base_index as (
 
     select 
-        _airbyte_index_hashid,
+        _AIRBYTE_RAW_ID,
         place_id, 
         wikidata_id, 
         country_code,

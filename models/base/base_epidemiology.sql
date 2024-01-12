@@ -1,7 +1,7 @@
 with base_epidemiology as (
 
     select 
-        _airbyte_epidemiology_hashid,
+        _AIRBYTE_RAW_ID,
         date,
         location_key,
         new_confirmed,

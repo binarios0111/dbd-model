@@ -1,7 +1,7 @@
 with base_economy as (
 
     select 
-        _airbyte_economy_hashid,
+        _AIRBYTE_RAW_ID,
         gdp_usd,
         location_key,
         gdp_per_capita_usd,
